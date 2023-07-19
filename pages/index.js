@@ -41,8 +41,7 @@ const IndexPage = () => {
               <h1 className="text-5xl font-bold">Hi, I'm Beau!</h1>
               <p className="py-6 text-xl ">
                 I'm a software developer in Kansas City. I create custom
-                websites and software. I also write about programming, hardware,
-                and life. I also enjoy hiking, fishing, and taking photos of my
+                websites and software. I also enjoy hiking, fishing, and taking photos of my
                 adventures!
               </p>
             </div>
@@ -50,6 +49,7 @@ const IndexPage = () => {
         </div>
       </section>
       <section className="content-center items-center">
+        <h1 className="content-centerv text-5xl py-4 font-bold text-center">Blog Posts & Projects</h1>
         <div className="grid grid-cols-1  gap-8 p-10 sm:grid-cols-2 md:grid-cols-3">
           {posts.map((post) => (
             <div
